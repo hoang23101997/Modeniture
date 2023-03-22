@@ -1,0 +1,266 @@
+:root{
+
+    --height_d: 800px;
+}
+
+.top_t{
+
+
+}
+
+.top_tc{
+    /* background-image: url("../public/home_pop/bg-img.png"); */
+    top: 50%;
+    left: 50%;
+     text-align: center;
+    }
+
+    .img_t{
+     opacity: 0.2;
+
+    }    
+
+    .top_x{
+        /* background-image: url("../public/home_pop/bg-img.png"); */
+        height: var(--height_d);
+        background-position: center;
+
+    }
+
+    .top_y{
+      height: var(--height_d);
+    }
+
+
+    .TolinkA{
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+
+    }
+    .css_text_midle{
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+
+    }
+    .TolinkA_1{
+     font-size: 2rem;   
+     color: aliceblue;
+
+    }
+
+    .metqua{
+        width: 150px;
+        height: 56px;
+
+    }
+
+    .checked {
+      color: orange;
+    }
+    .img_full{
+     width: 100%;
+     height: 100%;
+
+    }
+
+    /*    width: 32%; */
+    .Popular_Products_p{
+    margin-top: 20px;
+     width: 32%;
+     height: auto;
+
+    }
+    .Popular_Products_dis{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      }
+
+
+
+      .tex_pop{
+      /* vertical-align: text-bottom; */
+      align-self: flex-end;
+      margin-bottom: 0px;
+      }
+/*   border-color: #000000; */
+      .circle_blue{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 3px solid #818a91;
+        fill: #000000;
+        color: #000000;
+        border-color: #000000; 
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+      
+      }
+
+      .circle_infor{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       background-color: #fdfdfd;
+        border: 3px solid #ffffff;
+        fill: #ffffff;
+        color: #ffffff;
+        border-color: #0a02f9; 
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+      
+      }
+      
+      .css_midle_com{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .service_css{
+      height: 200px;
+      align-items: center;
+   
+      }
+
+      .note_sv{
+      height: 600px;
+
+      }
+
+      .testimonials_css{
+        width: 60px;
+        height: 60px; 
+      
+        border-radius: 50%;
+
+      }
+      .testimonials_content{
+        border-radius: 2%;
+        height: 200px; 
+        width: 100%;
+
+  
+      }
+      .testimonials_c1{
+       color: #000000;
+      }
+      .testimonials_c2{
+        color: #fdfdfd;
+       }
+
+      .testimonials_res{
+        height: 550px;
+
+
+      }
+
+      
+
+.toto{
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+
+
+.ani_css{
+  animation: myfirst 10s linear 1s infinite alternate;
+
+
+}
+@keyframes myfirst {
+  0%   { left:0px; top:0px;}
+ 
+  50%  { left:0px; top:200px;}
+
+  100% { left:0px; top:0px;}
+}
+
+
+.footer_css_m{
+width: 300px;
+height: 300px;
+
+}
+
+
+.containerx{
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rowx{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+      @media only screen and (max-width: 994px) {
+        .testimonials_res{
+          height: 1150px;
+  
+  
+        }
+        
+      }
+
+
+      @media only screen and (min-width: 750px)  and (max-width: 998px) {
+        .note_sv{
+          height: 900px;
+    
+          }
+        
+      }
+
+
+      @media only screen and (max-width: 750px) {
+        .note_sv{
+          height: 800px;
+    
+          }
+        
+      }
+
+
+      /*    flex-direction: column; */
+      @media only screen and (max-width: 1032px) {
+        .service_css{
+          height: 500px;
+          align-items: center;
+          flex-direction: column;
+          }
+
+        
+      }
+
+
+        /*    flex-direction: column; */
+        @media only screen and (max-width: 447px) {
+          .service_css{
+            height: 600px;
+            align-items: center;
+            flex-direction: column;
+            }
+  
+            
+  
+        }
